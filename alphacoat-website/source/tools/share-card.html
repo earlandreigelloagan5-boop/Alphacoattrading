@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Share card</title>
+<!--
+  The picture people see when the site's link is shared on Messenger, Facebook or Viber (1200 x 630).
+  Saved to img/share.jpg with:  node source/tools/capture.mjs <this file's file:// address> img/share.jpg 1200 630 jpeg
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Besley:wght@500..900&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; background: #000; color: #fff; font-family: "Archivo", sans-serif; }
+  .coat { position: absolute; inset: 0; display: flex; }
+  .coat i {
+    flex: 1; margin-right: -1px; border-radius: 0 0 5px 5px;
+    background: linear-gradient(90deg, rgba(255,255,255,.09), rgba(255,255,255,0) 20%, rgba(0,0,0,0) 72%, rgba(0,0,0,.2)), #0f6b3c;
+  }
+  .coat i:nth-child(1) { height: 94%; } .coat i:nth-child(2) { height: 87%; } .coat i:nth-child(3) { height: 97%; }
+  .coat i:nth-child(4) { height: 90%; } .coat i:nth-child(5) { height: 99%; } .coat i:nth-child(6) { height: 86%; }
+  .coat i:nth-child(7) { height: 93%; }
+  .sheen { position: absolute; inset: 0; background: radial-gradient(44% 62% at 76% 10%, rgba(190,255,214,.3), rgba(190,255,214,0) 70%); mix-blend-mode: screen; }
+
+  .logo { position: absolute; left: 68px; top: 54px; display: inline-grid; line-height: 1; font-size: 46px; }
+  .logo-word { display: flex; align-items: center; font-family: "Besley", serif; font-weight: 900; letter-spacing: .025em; }
+  .logo-word svg { width: .84em; height: .84em; margin: 0 .04em; }
+  .logo-rule { height: 4px; margin: 8px 0; background: linear-gradient(90deg, #d23a2e, #2b4fa8 38%, #e39a1f 68%, #2fa35b); }
+  .logo-sub { font-family: "Besley", serif; font-weight: 700; font-size: .49em; white-space: nowrap; text-align: justify; text-align-last: justify; }
+
+  h1 { position: absolute; left: 68px; top: 196px; width: 700px; margin: 0; font-family: "Besley", serif; font-weight: 800; font-size: 70px; line-height: 1.02; letter-spacing: -.012em; }
+  p { position: absolute; left: 68px; top: 430px; width: 640px; margin: 0; font-size: 28px; line-height: 1.32; }
+  .phone { position: absolute; left: 68px; bottom: 44px; font-family: "Besley", serif; font-weight: 800; font-size: 36px; }
+  .can { position: absolute; right: 40px; bottom: 6px; width: 410px; height: auto; }
+  .shadow { position: absolute; right: 96px; bottom: 6px; width: 300px; height: 52px; border-radius: 50%; background: radial-gradient(closest-side, rgba(0,0,0,.7), rgba(0,0,0,0)); }
+</style>
+</head>
+<body>
+  <div class="coat"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="sheen"></div>
+
+  <div class="logo">
+    <span class="logo-word">ALPHAC<svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="13.4" fill="#fff" stroke="#fff" stroke-width="3.6"/><path d="M8.6 21.6C8 13.9 13.6 8.9 23.6 9.6c.9 8.3-5 13.9-15 12Z" fill="#2fa35b"/><path d="M9.4 21c3.6-4.2 7.8-7.6 13-10.4" fill="none" stroke="#0a4a2a" stroke-width="1.3" stroke-linecap="round"/></svg>AT</span>
+    <span class="logo-rule"></span>
+    <span class="logo-sub">Trading &amp; Paint Services</span>
+  </div>
+
+  <h1>Primers, topcoats and thinners, made in Taytay.</h1>
+  <p>Any color, matte to gloss. Written quotations for contractors, factories and engineers.</p>
+  <div class="phone">0977 163 5220</div>
+
+  <div class="shadow"></div>
+  <img class="can" src="../../img/can/can.webp" alt="">
+</body>
+</html>

@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Alphacoat Trading &amp; Paint Services | Primers, topcoats and thinners in Taytay, Rizal</title>
+  <meta name="description" content="Alphacoat Trading &amp; Paint Services makes and supplies primers, topcoats and thinners for contractors, factories and engineers. Send your list and get a written quotation.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Alphacoat Trading &amp; Paint Services">
+  <meta property="og:description" content="Primers, topcoats and thinners for contractors, factories and engineers. Send your list and get a written quotation.">
+  <!-- Picture shown when the link is shared. Once the site has a web address, this must be the full address,
+       for example https://your-domain/img/share.jpg, or Facebook and Messenger will not show it. -->
+  <meta property="og:image" content="img/share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/icon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Besley:wght@500..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.className += ' js';</script>
+  <script>
+    // If the visitor chose a paint color last time, put it back before the page is drawn.
+    try {
+      var saved = JSON.parse(localStorage.getItem('alphacoat-paint') || 'null');
+      if (saved && saved.vars) {
+        for (var name in saved.vars) if (/^--paint/.test(name)) document.documentElement.style.setProperty(name, String(saved.vars[name]));
+        if (saved.custom) document.documentElement.className += ' is-repainted';
+      }
+    } catch (err) {}
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Alphacoat Trading & Paint Services",
+    "description": "Maker and supplier of primers, topcoats and thinners for contractors, factories and engineers.",
+    "telephone": "+639771635220",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Block 1 Lot 42 Phase 2, San Lorenzo Ruiz",
+      "addressLocality": "Taytay",
+      "addressRegion": "Rizal",
+      "addressCountry": "PH"
+    }
+  }
+  </script>
+</head>
+<body class="theme-black">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="leaf-o" viewBox="0 0 32 32">
+    <circle cx="16" cy="16" r="13.4" fill="#fff" stroke="currentColor" stroke-width="3.6"/>
+    <path d="M8.6 21.6C8 13.9 13.6 8.9 23.6 9.6c.9 8.3-5 13.9-15 12Z" fill="#2fa35b"/>
+    <path d="M9.4 21c3.6-4.2 7.8-7.6 13-10.4" fill="none" stroke="#0a4a2a" stroke-width="1.3" stroke-linecap="round"/>
+  </symbol>
+</svg>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="logo" href="#top">
+      <span class="logo-word" aria-hidden="true">ALPHAC<svg class="logo-o"><use href="#leaf-o"/></svg>AT</span>
+      <span class="logo-rule" aria-hidden="true"></span>
+      <span class="logo-sub" aria-hidden="true">Trading &amp; Paint Services</span>
+      <span class="sr-only">Alphacoat Trading &amp; Paint Services, home</span>
+    </a>
+
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="#products">Products</a>
+      <a href="#system">Coating system</a>
+      <a href="#colors">Colors</a>
+      <a href="#calculator">Paint calculator</a>
+      <a href="#about">About</a>
+      <a class="nav-extra" href="#quote">Request a quote</a>
+      <a class="nav-extra" href="tel:+639771635220" data-mobile-link>Call <span data-mobile-text>0977 163 5220</span></a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-phone" href="tel:+639771635220" data-mobile-link><span data-mobile-text>0977 163 5220</span></a>
+      <a class="btn btn-paper header-quote" href="#quote">Request a quote<span class="quote-count" data-quote-count hidden></span></a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Hero -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="coat" data-coat aria-hidden="true"></div>
+
+    <div class="wrap hero-inner">
+      <h1 id="hero-title">Primers, topcoats and thinners, made in Taytay.</h1>
+      <p class="hero-lede">Alphacoat supplies contractors, factories and engineers. Send us the products and quantities you need and we reply with a written quotation.</p>
+      <div class="hero-actions">
+        <a class="btn btn-paper" href="#quote">Request a quote</a>
+        <a class="btn btn-line" href="tel:+639771635220" data-mobile-link>Call <span data-mobile-text>0977 163 5220</span></a>
+      </div>
+      <p class="paint-note">
+        <span data-paint-default>This wall can be any color. <a href="#colors">Try yours</a></span>
+        <span data-paint-custom hidden><span>Painted in <span data-paint-name></span>.</span> <a href="#colors">Change it</a> <button class="link-btn" type="button" data-paint-reset>Back to Alphacoat green</button></span>
+      </p>
+    </div>
+
+    <div class="hero-can" data-can>
+      <img src="img/can/can.webp" width="480" height="600" alt="A gallon can of Alphacoat 3130 Epoxy Zinc Rich Primer" decoding="async">
+      <div class="can-sprite" aria-hidden="true"></div>
+      <!-- A dab of the chosen color on the lid, the way a paint shop marks a tinted can. Shown once a color is picked. -->
+      <span class="can-dab" aria-hidden="true"></span>
+    </div>
+  </section>
+
+  <!-- Products -->
+  <section class="section theme-black" id="products" aria-labelledby="products-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="products-title">What we make and supply</h2>
+        <p>Pick a can to see what it is for, then add it to your quote list. Prices are quoted per gallon. Not sure which one? <a href="#guide">Answer three questions</a>.</p>
+      </div>
+
+      <div class="filters" role="group" aria-label="Show products by type" data-filters></div>
+
+      <div class="shelf-wrap">
+        <ul class="shelf" data-shelf>
+          <li class="product-fallback">Alphacoat 3130 Epoxy Zinc Rich Primer, Thinner #10 Lacquer Thinner, Thinner #40 Polyurethane Reducer, and topcoats. Call 0977 163 5220 for a quotation.</li>
+        </ul>
+      </div>
+      <div class="product-card" data-product-detail></div>
+
+      <p class="after-list">Looking for something that is not listed? Describe it in your <a href="#quote">quote request</a> and we will tell you what we can supply.</p>
+    </div>
+  </section>
+
+  <!-- Guide -->
+  <section class="section section-follow theme-black" id="guide" aria-labelledby="guide-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="guide-title">Not sure what you need?</h2>
+        <p>Answer three questions and get a starting list to send us. We confirm the right system when we reply.</p>
+      </div>
+
+      <div class="guide" data-guide>
+        <form class="guide-form" data-guide-form>
+          <fieldset class="guide-q">
+            <legend>What are you painting?</legend>
+            <div class="choices" data-guide-surfaces></div>
+          </fieldset>
+          <fieldset class="guide-q">
+            <legend>Where is it?</legend>
+            <div class="choices" data-guide-places></div>
+          </fieldset>
+          <fieldset class="guide-q">
+            <legend>What finish?</legend>
+            <div class="choices" data-guide-finishes></div>
+          </fieldset>
+          <div class="field guide-area">
+            <label for="guide-area">Area to paint <span class="optional">(optional)</span></label>
+            <div class="with-unit"><input class="input" id="guide-area" type="number" inputmode="decimal" min="0" step="any" data-guide-area><span>m²</span></div>
+          </div>
+        </form>
+        <div class="guide-result" data-guide-result aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Coating system -->
+  <section class="section theme-paper" id="system" data-edge="top" aria-labelledby="system-title">
+    <div class="wrap system-grid">
+      <div class="system-figure" data-system-figure data-stage="3">
+        <div class="layers">
+          <img class="layer-shot layer-1" src="img/system/stage-1.webp" width="1300" height="900" loading="lazy" decoding="async" alt="">
+          <img class="layer-shot layer-2" src="img/system/stage-2.webp" width="1300" height="900" loading="lazy" decoding="async" alt="">
+          <img class="layer-shot layer-3" src="img/system/stage-3.webp" width="1300" height="900" loading="lazy" decoding="async" alt="Cutaway of a painted steel plate: bare steel at the right, zinc-rich epoxy primer over it, and a gloss green topcoat over the primer.">
+          <svg class="callouts" viewBox="0 0 1300 900" aria-hidden="true" focusable="false">
+            <g class="callout callout-topcoat">
+              <path d="M604 236 L782 122"/>
+              <circle cx="604" cy="236" r="8"/>
+              <text class="callout-title" x="798" y="118">Topcoat</text>
+              <text class="callout-sub" x="798" y="158">Color and gloss</text>
+            </g>
+            <g class="callout callout-primer">
+              <path d="M806 404 L1012 276"/>
+              <circle cx="806" cy="404" r="8"/>
+              <text class="callout-title" x="1028" y="272">Primer</text>
+              <text class="callout-sub" x="1028" y="312">Alphacoat 3130</text>
+            </g>
+            <g class="callout callout-steel">
+              <path d="M968 566 L1076 716"/>
+              <circle cx="968" cy="566" r="8"/>
+              <text class="callout-title" x="1092" y="736">Steel</text>
+              <text class="callout-sub" x="1092" y="776">Clean and dry</text>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <div class="system-copy">
+        <h2 id="system-title">How the coats work together</h2>
+        <p class="lede">On steel, each coat has its own job. This is the usual order of work.</p>
+
+        <ol class="steps">
+          <li class="step" data-system-step>
+            <h3>Prepare the steel</h3>
+            <p>Paint only holds on a clean surface. Remove rust, mill scale, oil and dust, and let the steel dry before the first coat.</p>
+          </li>
+          <li class="step" data-system-step>
+            <h3>Prime with zinc-rich epoxy</h3>
+            <p>Alphacoat 3130 Epoxy Zinc Rich Primer goes on first. The zinc in the film protects the steel from rust and gives the next coat something to grip.</p>
+          </li>
+          <li class="step" data-system-step>
+            <h3>Finish with a topcoat</h3>
+            <p>The topcoat gives the color and gloss, and shields the primer from sun, rain and wear.</p>
+          </li>
+        </ol>
+
+        <p class="system-note">For thinning, use the reducer that matches the paint: Thinner #40 for polyurethane coatings, Thinner #10 for lacquers. The right system depends on the surface and where it will be used, so tell us about the job and we will recommend one.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Before and after -->
+  <section class="section section-follow theme-paper" id="results" aria-labelledby="results-title" data-edge="bottom">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="results-title">Bare steel to finished coat</h2>
+        <p>Drag the handle to compare rusting bare steel with the same frame primed and topcoated. This picture is an illustration, not a photograph of a job.</p>
+      </div>
+
+      <div class="compare" data-compare>
+        <img class="compare-after" src="img/compare/steel-after.webp" width="1440" height="960" loading="lazy" decoding="async" alt="A steel frame finished in gloss green.">
+        <div class="compare-before"><img src="img/compare/steel-before.webp" width="1440" height="960" loading="lazy" decoding="async" alt="The same steel frame bare and rusting."></div>
+        <span class="compare-tag compare-tag-before" aria-hidden="true">Bare steel</span>
+        <span class="compare-tag compare-tag-after" aria-hidden="true">Primed and topcoated</span>
+        <div class="compare-handle" aria-hidden="true"><span class="compare-knob"></span></div>
+        <input class="compare-range" type="range" min="0" max="100" value="50" step="0.1" aria-label="Slide to show more of the bare steel or more of the finished coat">
+      </div>
+
+      <div class="projects" data-projects hidden>
+        <h3>Finished jobs</h3>
+        <ul class="project-grid" data-project-grid></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Color and finish explorer -->
+  <section class="section section-explorer theme-black" id="colors" aria-labelledby="colors-title">
+    <div class="wrap">
+      <div class="explorer" data-explorer>
+        <div class="explorer-intro">
+          <h2 id="colors-title">See the color on the job</h2>
+          <p>Alphacoat can make any color in a matte, satin, semi-gloss or gloss finish. Choose one and see it on six kinds of job.</p>
+        </div>
+
+        <div class="explorer-stage">
+          <div class="scene-tabs" role="group" aria-label="What to paint" data-scenes></div>
+          <!-- On phones this block stays pinned under the header, so the picture is in view while a color is chosen. -->
+          <div class="viz-pin">
+            <div class="viz" data-viz>
+              <img class="viz-base" src="img/explorer/steel-base.webp" width="1500" height="1000" loading="lazy" decoding="async" alt="" data-viz-base>
+              <!-- The paint: a flat color cut to the painted parts by a mask picture. Built as inline SVG so it also
+                   works when the page is opened straight from the folder (a CSS mask file is blocked there). -->
+              <svg class="viz-paint" data-viz-paint viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+                <defs>
+                  <mask id="viz-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="800">
+                    <image data-viz-mask href="img/explorer/steel-mask.webp" x="0" y="0" width="1200" height="800" preserveAspectRatio="none"/>
+                  </mask>
+                </defs>
+                <g mask="url(#viz-mask)">
+                  <rect class="coat-old" width="1200" height="800" fill="#0f6b3c"/>
+                  <rect class="coat-new" width="1200" height="800" fill="#0f6b3c"/>
+                </g>
+              </svg>
+              <img class="viz-gloss" src="img/explorer/steel-gloss.webp" width="1500" height="1000" loading="lazy" decoding="async" alt="" data-viz-gloss>
+            </div>
+          </div>
+          <p class="sr-only" aria-live="polite" data-viz-caption></p>
+        </div>
+
+        <div class="explorer-controls">
+          <div class="control">
+            <h3 id="swatch-title">Color</h3>
+            <div class="swatches" role="group" aria-labelledby="swatch-title" data-swatches></div>
+
+            <div class="hex">
+              <div class="hex-top">
+                <label for="hex-code">Or enter a HEX code, like #1E73BE</label>
+                <button class="link-btn photo-open" type="button" data-photo-open>Pick from a photo</button>
+              </div>
+              <div class="hex-field">
+                <input class="hex-picker" type="color" value="#0f6b3c" aria-label="Open the color picker" data-hex-picker>
+                <input class="input" id="hex-code" type="text" value="#0F6B3C" maxlength="7" autocomplete="off" autocapitalize="characters" spellcheck="false" data-hex-input>
+              </div>
+              <p class="field-error" role="alert" data-hex-error hidden></p>
+              <input type="file" accept="image/*" hidden data-photo-file>
+            </div>
+
+            <p class="picked"><span class="picked-chip" data-picked-chip></span><span data-picked-name></span><span class="picked-hex" data-picked-hex></span><button class="link-btn" type="button" data-paint-reset data-paint-custom hidden>Back to Alphacoat green</button></p>
+          </div>
+
+          <div class="control">
+            <label class="control-title" for="finish">Finish</label>
+            <input class="finish-range" id="finish" type="range" min="0" max="100" value="85" step="1" data-finish>
+            <div class="finish-scale" aria-hidden="true"><span>Matte</span><span>Satin</span><span>Semi-gloss</span><span>Gloss</span></div>
+          </div>
+
+          <button class="btn btn-green" type="button" data-explorer-add>Add this color to my quote request</button>
+          <p class="hint">Screen colors are approximate. We confirm the match from your HEX code or a sample before you order.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Calculator -->
+  <section class="section theme-green" id="calculator" data-edge="top bottom" aria-labelledby="calc-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="calc-title">Work out how much paint the job needs</h2>
+        <p>Example figures are filled in. Replace them with your own, using the coverage or volume solids printed on the product data sheet.</p>
+      </div>
+
+      <div class="calc-grid">
+        <form class="calc-form" data-calc novalidate>
+          <fieldset class="seg-set">
+            <legend>How do you want to work it out?</legend>
+            <div class="seg">
+              <label><input type="radio" name="mode" value="rate" checked><span>I know the coverage rate</span></label>
+              <label><input type="radio" name="mode" value="film"><span>From film thickness</span></label>
+            </div>
+          </fieldset>
+
+          <div class="fields">
+            <div class="field field-wide">
+              <label for="calc-product">Which paint? <span class="optional">(optional)</span></label>
+              <select class="input" id="calc-product" data-calc-product><option value="">Any paint</option></select>
+              <p class="hint" data-calc-product-note hidden></p>
+            </div>
+            <div class="field">
+              <label for="calc-area">Surface area</label>
+              <div class="with-unit"><input class="input" id="calc-area" type="number" inputmode="decimal" min="0" step="any" value="250"><span>m²</span></div>
+            </div>
+            <div class="field">
+              <label for="calc-coats">Number of coats</label>
+              <div class="with-unit"><input class="input" id="calc-coats" type="number" inputmode="numeric" min="1" step="1" value="2"><span>coats</span></div>
+            </div>
+
+            <div class="field" data-mode-rate>
+              <label for="calc-coverage">Coverage per gallon, per coat</label>
+              <div class="with-unit"><input class="input" id="calc-coverage" type="number" inputmode="decimal" min="0" step="any" value="30"><span>m²</span></div>
+            </div>
+
+            <div class="field" data-mode-film hidden>
+              <label for="calc-solids">Volume solids</label>
+              <div class="with-unit"><input class="input" id="calc-solids" type="number" inputmode="decimal" min="0" max="100" step="any" value="60"><span>%</span></div>
+            </div>
+            <div class="field" data-mode-film hidden>
+              <label for="calc-dft">Dry film thickness per coat</label>
+              <div class="with-unit"><input class="input" id="calc-dft" type="number" inputmode="decimal" min="0" step="any" value="75"><span>microns</span></div>
+            </div>
+
+            <div class="field">
+              <label for="calc-loss">Allowance for loss</label>
+              <div class="with-unit"><input class="input" id="calc-loss" type="number" inputmode="decimal" min="0" max="90" step="any" value="20"><span>%</span></div>
+              <p class="hint">Overspray, rough surfaces and what stays in the can.</p>
+            </div>
+          </div>
+        </form>
+
+        <div class="calc-result" aria-live="polite">
+          <p class="calc-label">You need about</p>
+          <p class="calc-figure"><span class="calc-number" data-calc-number>21</span> <span class="calc-unit" data-calc-unit>gallons</span></p>
+          <p class="calc-detail" data-calc-detail></p>
+          <p class="calc-error" data-calc-error hidden></p>
+          <button class="btn btn-paper" type="button" data-calc-add>Add this to my quote request</button>
+          <p class="hint">One gallon is taken as <span data-gal>3.785</span> liters. This is an estimate, not a guarantee of coverage on site.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Before you order -->
+  <section class="section theme-paper" id="faq" aria-labelledby="faq-title" data-edge="bottom">
+    <div class="wrap faq-grid">
+      <div class="section-head">
+        <h2 id="faq-title">Before you order</h2>
+        <p>Short answers to what buyers ask first. For anything else, call us or send a quote request.</p>
+      </div>
+      <div class="faq-list" data-faq></div>
+    </div>
+  </section>
+
+  <!-- Quote -->
+  <section class="section theme-black" id="quote" aria-labelledby="quote-title">
+    <div class="wrap quote-grid">
+      <div class="quote-main">
+        <div class="section-head">
+          <h2 id="quote-title">Request a quote</h2>
+          <p>Send your list and we reply with a written quotation.</p>
+        </div>
+
+        <div data-quote-stage="form">
+          <h3 class="sub-title">Your quote list</h3>
+          <p class="quote-empty" data-quote-empty>Your quote list is empty. <a href="#products">Add products</a>, or describe what you need below.</p>
+          <ul class="quote-items" data-quote-items></ul>
+
+          <form class="quote-form" data-quote-form novalidate>
+            <div class="fields">
+              <div class="field">
+                <label for="q-name">Your name</label>
+                <input class="input" id="q-name" name="name" type="text" autocomplete="name" required>
+                <p class="field-error" data-error-for="name" hidden></p>
+              </div>
+              <div class="field">
+                <label for="q-company">Company <span class="optional">(optional)</span></label>
+                <input class="input" id="q-company" name="company" type="text" autocomplete="organization">
+              </div>
+              <div class="field field-wide">
+                <label for="q-contact">Mobile number or email</label>
+                <input class="input" id="q-contact" name="contact" type="text" autocomplete="tel" required>
+                <p class="field-error" data-error-for="contact" hidden></p>
+              </div>
+              <div class="field field-wide">
+                <label for="q-details">About the job <span class="optional">(optional)</span></label>
+                <textarea class="input" id="q-details" name="details" rows="4"></textarea>
+                <p class="hint">Surface, area, color, or anything else we should know.</p>
+                <p class="field-error" data-error-for="details" hidden></p>
+              </div>
+            </div>
+            <button class="btn btn-green" type="submit" data-quote-submit>Prepare my request</button>
+            <p class="form-status" data-form-status role="alert" hidden></p>
+          </form>
+        </div>
+
+        <div class="ready" data-quote-stage="ready" hidden>
+          <h3 tabindex="-1" data-ready-title>Your request is ready to send</h3>
+          <p>Send this message to Alphacoat and we will reply with a quotation.</p>
+          <pre data-ready-message></pre>
+          <div class="ready-actions">
+            <a class="btn btn-green" href="#" data-send-sms>Send as text message</a>
+            <a class="btn btn-line" href="#" data-send-email hidden>Send by email</a>
+            <button class="btn btn-line" type="button" data-copy>Copy message</button>
+            <a class="btn btn-line" href="tel:+639771635220" data-mobile-link>Call <span data-mobile-text>0977 163 5220</span></a>
+          </div>
+          <p class="ready-links">
+            <button class="link-btn" type="button" data-edit>Edit request</button>
+            <button class="link-btn" type="button" data-reset>Start a new request</button>
+          </p>
+        </div>
+
+        <div class="ready" data-quote-stage="sent" hidden>
+          <h3 tabindex="-1" data-sent-title>Request sent</h3>
+          <p data-sent-text>We will reply with a written quotation.</p>
+          <p class="ready-links"><button class="link-btn" type="button" data-reset>Start a new request</button></p>
+        </div>
+      </div>
+
+      <aside class="contact-card" aria-labelledby="contact-title">
+        <h3 id="contact-title">Or talk to us</h3>
+        <dl>
+          <div>
+            <dt>Mobile</dt>
+            <dd><a class="big-number" href="tel:+639771635220" data-mobile-link><span data-mobile-text>0977 163 5220</span></a></dd>
+          </div>
+          <div>
+            <dt>Telephone</dt>
+            <dd data-telephone>866-0418</dd>
+          </div>
+          <div>
+            <dt>Address</dt>
+            <dd><span data-address>Block 1 Lot 42 Phase 2, San Lorenzo Ruiz<br>Taytay, Rizal</span><br>
+              <a href="https://www.google.com/maps/search/?api=1&amp;query=San%20Lorenzo%20Ruiz%2C%20Taytay%2C%20Rizal" target="_blank" rel="noopener" data-maps>Open in Google Maps</a></dd>
+          </div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section theme-paper" id="about" data-edge="top bottom" aria-labelledby="about-title">
+    <div class="wrap about-grid">
+      <div class="about-copy">
+        <h2 id="about-title">A paint maker in Taytay, Rizal</h2>
+        <p class="lede">Alphacoat Trading &amp; Paint Services makes primers, topcoats and thinners, and supplies them to contractors, factories and engineers for walls, steelwork and general projects.</p>
+      </div>
+      <div class="about-order">
+        <h3>How ordering works</h3>
+        <ol class="steps steps-compact">
+          <li class="step">
+            <h4>Send your list</h4>
+            <p>The products and quantities you need, or a description of the job.</p>
+          </li>
+          <li class="step">
+            <h4>Get a written quotation</h4>
+            <p>Itemized and priced per gallon.</p>
+          </li>
+          <li class="step">
+            <h4>Confirm the order</h4>
+            <p>By phone or message, and we arrange supply with you.</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer theme-black">
+  <div class="wrap footer-grid">
+    <div>
+      <span class="logo logo-large">
+        <span class="logo-word" aria-hidden="true">ALPHAC<svg class="logo-o"><use href="#leaf-o"/></svg>AT</span>
+        <span class="logo-rule" aria-hidden="true"></span>
+        <span class="logo-sub" aria-hidden="true">Trading &amp; Paint Services</span>
+        <span class="sr-only">Alphacoat Trading &amp; Paint Services</span>
+      </span>
+    </div>
+    <address>
+      <span data-address>Block 1 Lot 42 Phase 2, San Lorenzo Ruiz<br>Taytay, Rizal</span>
+    </address>
+    <p>
+      Mobile <a href="tel:+639771635220" data-mobile-link><span data-mobile-text>0977 163 5220</span></a><br>
+      Telephone <span data-telephone>866-0418</span>
+    </p>
+    <p class="footer-small">© 2026 Alphacoat Trading &amp; Paint Services</p>
+  </div>
+</footer>
+
+<!-- Pick a color from a photo. The photo is read on the visitor's own device and is never sent anywhere. -->
+<dialog class="photo-dialog" data-photo-dialog aria-labelledby="photo-title">
+  <div class="photo-head">
+    <h2 id="photo-title">Pick a color from your photo</h2>
+    <button class="link-btn" type="button" data-photo-close>Close</button>
+  </div>
+  <div class="photo-stage"><canvas data-photo-canvas></canvas><span class="photo-marker" data-photo-marker hidden></span></div>
+  <div class="photo-foot">
+    <p class="photo-pick"><span class="picked-chip" data-photo-chip></span><span data-photo-hex>Tap or click the color you want</span></p>
+    <div class="photo-actions">
+      <button class="btn btn-green" type="button" data-photo-use disabled>Use this color</button>
+      <button class="btn btn-line" type="button" data-photo-another>Choose another photo</button>
+    </div>
+    <p class="hint">Your photo stays on this device. It is not uploaded.</p>
+  </div>
+</dialog>
+
+<!-- Phones only: stays at the bottom of the screen once the first screen has scrolled away. -->
+<div class="action-bar" data-action-bar>
+  <a class="btn btn-line" href="tel:+639771635220" data-mobile-link>Call</a>
+  <a class="btn btn-green" href="#quote">Request a quote<span class="quote-count" data-quote-count hidden></span></a>
+</div>
+
+<p class="sr-only" aria-live="polite" data-live></p>
+
+<script src="js/site-config.js"></script>
+<script src="js/products.js"></script>
+<script src="js/colors.js"></script>
+<script src="js/projects.js"></script>
+<script src="js/guide.js"></script>
+<script src="js/faq.js"></script>
+<script src="js/main.js"></script>
+<script src="js/features.js"></script>
+</body>
+</html>
